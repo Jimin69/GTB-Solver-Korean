@@ -1,5 +1,7 @@
-# GTB-Solver !!gtb.yangciou.com is no longer being updated!!
-## To Use This:
+# GTB-Solver by yangciou but updated
+## In this fork the words are updated to modern versions of the game and also added Korean words if your language is set to Korean on Hypixel.
+<br><br>
+## How to use this:
 - Download the source code
 - Open index.html in a browser
 - Type in hints given by the game and possible results will show up
