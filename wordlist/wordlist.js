@@ -502,7 +502,7 @@ var arrayData = [
 	"Donkey",
 	"Donut",
 	"Door",
-	"Doorknob",
+	"Door knob",
 	"Dragon",
 	"Dragon Egg",
 	"Dragonfly",
