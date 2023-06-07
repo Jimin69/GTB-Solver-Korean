@@ -1,0 +1,137 @@
+[type=text] {
+	width: 400px;
+	display: block;
+	margin: 0 auto;
+	/*font-family: 'Roboto Mono', monospace;*/
+	font-family: 'MinecraftiaRegular'; 
+	font-weight: bold; 
+	font-style: normal; 
+	font-size: 30px;
+  }
+
+body {
+    background-color: #191919;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/*                                                         */
+/*                        TOP BAR                          */
+/*                                                         */
+.top-bar {
+	background-color: #393939;
+	height: 55px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+	display: flex;
+	align-items: center;
+}
+.title {
+	color: #bebebe;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 12px;
+	margin-top: 24px;
+}
+.logo {
+	margin-left: 10px;
+	height: 45px;
+	width: 45px;
+	object-fit: contain;
+}
+.login {
+	height: 55px;
+	width: 47px;
+	right: 115px;
+	position:absolute;
+}
+.fakegfn {
+	color: #bebebe;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: normal;
+	right: 50px;
+	position:absolute;
+}
+h1 {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 28px;
+	font-weight: bold;
+}
+p {
+	font-size: 24px;
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+	padding: 10px;
+	font-size: 18px;
+	background-color: #393939;
+	color: rgba(255, 255, 255, 0.6);
+	border: none;
+	border-radius: 0;
+	margin-left: 0px;
+    margin-top: -15px;
+    width: 10%;
+	cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+button:hover {
+	background-color: #76b900;
+	color: white;
+}
+button:active {
+	background-color: #438600;
+	color: #CCCCCC;
+}
+.main-content {
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #659229; /* color of the scroll bar thumb */
+}
+::-webkit-scrollbar-track {
+	background-color: #403E40; /* color of the scroll bar track */
+}
+
+input {
+	padding: 10px;
+	font-size: 18px;
+	width: 80%;
+	max-width: 500px;
+	border: none;
+	border-radius: 0;
+	margin-top: 20px;
+	background-color: #393939;
+	color: white;
+}
+
+input:focus {
+	outline: none;
+	border-bottom: 2px solid #76b900;
+}
+
+input::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+  
+#result {
+	padding: 0;
+	font-size: 35px;
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'MinecraftiaRegular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	list-style-type: none;
+}
+
+.footer2 {
+	text-align: center;
+}
